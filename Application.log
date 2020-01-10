@@ -1,3 +1,2 @@
-2020-01-06 13:30:26,370  INFO [main] TestBase:51 -****Launching Chrome Browser****
-2020-01-06 13:30:35,754  INFO [main] TestBase:66 -*****Opening Url*****
-2020-01-06 13:30:39,157  INFO [main] LoginPageTest:39 -**Running loginpage validLoginDetails Test**
+2020-01-10 14:03:36,573  INFO [main] TestBase:51 -****Launching Chrome Browser****
+2020-01-10 14:03:46,057  INFO [main] TestBase:66 -*****Opening Url*****

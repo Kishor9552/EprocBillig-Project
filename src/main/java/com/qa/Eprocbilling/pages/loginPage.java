@@ -27,16 +27,18 @@ public class loginPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
+	
+	
 	public String validateLoginPagetitle() {
-
 		return driver.getTitle();
 
 	}
 
-	public void validatevalidLogin() {
+	public MainMenu validatevalidLogin() {
 		username.sendKeys(prop.getProperty("validuserName"));
 		pass.sendKeys(prop.getProperty("validpassword"));
 		loginbtn.click();
+		return new MainMenu();
 		
 	}
 
