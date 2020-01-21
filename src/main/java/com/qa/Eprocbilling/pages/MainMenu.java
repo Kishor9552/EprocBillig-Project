@@ -31,6 +31,10 @@ public class MainMenu extends TestBase{
 	
 	@FindBy(linkText="Utilities")
 	WebElement UtilitiesPageLink;
+	
+	@FindBy(linkText="Customers")
+	WebElement CustomersPageLink;
+	
 
 public MainMenu() {
 	PageFactory.initElements(driver, this);
@@ -45,6 +49,11 @@ public MainMenu() {
 	public  SalesPage salesPageLinkTest() {
 		salesPageLink.click();
 		return new SalesPage();
+	}
+	public CustomerPage validatecustomerpageLink() {
+		CustomersPageLink.click();
+		return new CustomerPage();
+		
 	}
 		
 	}
